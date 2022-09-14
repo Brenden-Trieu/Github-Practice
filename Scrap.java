@@ -1,7 +1,6 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class A1 {
+public class Scrap {
     public static void main(String args[]) {
         int[] arr = { 2, 15, 9, 45, 32, 8 };
         String[] words = { "McRib", "Acorn", "Net", "Computer" };
