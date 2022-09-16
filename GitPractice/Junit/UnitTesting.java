@@ -14,6 +14,7 @@ public class UnitTesting {
         assertArrayEquals(result, tester);
     }
 
+    @Test
     public void StringTest() {
         String[] wordsArr = { "Ricky", "Arson", "Punk", "Zipper", "Mary" };
         String[] resultStrings = { "Arson", "Mary", "Punk", "Ricky", "Zipper" };
