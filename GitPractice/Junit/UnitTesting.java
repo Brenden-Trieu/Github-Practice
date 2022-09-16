@@ -12,7 +12,6 @@ public class UnitTesting {
         int[] result = { 1, 5, 19, 37, 44, 48, 50, 88 };
         App.sortNum(tester);
         assertArrayEquals(result, tester);
-        return;
     }
 
     public void StringTest() {
