@@ -1,7 +1,8 @@
+
 import java.util.Arrays;
 
-public class Main {
-    public static void main(String args[]) {
+public class App {
+    public static void main(String[] args) throws Exception {
         String[] words = { "Zero", "Gwambus", "Robert", "Mwamba", "Armmy", "Agronomy" };
         int[] arr = { 15, 57, 4, 64, 11, 20, 41, 3 };
 
