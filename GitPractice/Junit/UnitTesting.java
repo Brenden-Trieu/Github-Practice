@@ -1,3 +1,6 @@
+package Junit;
+
+import main.*;
 import org.junit.*;
 import org.junit.internal.ArrayComparisonFailure;
 import org.junit.internal.ExactComparisonCriteria;
