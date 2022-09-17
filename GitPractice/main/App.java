@@ -3,7 +3,7 @@ package main;
 import java.util.Arrays;
 
 public class App {
-
+    // methods
     public static int[] sortNum(int[] arr) {
         Arrays.sort(arr);
         return arr;
@@ -14,6 +14,7 @@ public class App {
         return arr;
     }
 
+    // main area for testing methods in main
     public static void main(String[] args) throws Exception {
         String[] words = { "Zero", "Gwambus", "Robert", "Mwamba", "Armmy", "Agronomy" };
         int[] arr = { 15, 57, 4, 64, 11, 20, 41, 3 };
