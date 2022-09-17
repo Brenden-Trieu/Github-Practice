@@ -3,7 +3,7 @@ package main;
 import java.util.Arrays;
 
 public class App {
-
+    //methods
     public static int[] sortNum(int[] arr) {
         Arrays.sort(arr);
         return arr;
