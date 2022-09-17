@@ -3,12 +3,12 @@ package main;
 import java.util.Arrays;
 
 public class App {
-    //methods
+    //  methods
     public static int[] sortNum(int[] arr) {
         Arrays.sort(arr);
         return arr;
     }
-
+    // seperate method for strings
     public static String[] sortString(String[] arr) {
         Arrays.sort(arr);
         return arr;
