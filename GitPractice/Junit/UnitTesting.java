@@ -1,3 +1,6 @@
+package Junit;
+
+import main.*;
 import org.junit.*;
 import org.junit.internal.ArrayComparisonFailure;
 import org.junit.internal.ExactComparisonCriteria;
@@ -9,9 +12,9 @@ public class UnitTesting {
         int[] result = { 1, 5, 19, 37, 44, 48, 50, 88 };
         App.sortNum(tester);
         assertArrayEquals(result, tester);
-        return;
     }
 
+    @Test
     public void StringTest() {
         String[] wordsArr = { "Ricky", "Arson", "Punk", "Zipper", "Mary" };
         String[] resultStrings = { "Arson", "Mary", "Punk", "Ricky", "Zipper" };
